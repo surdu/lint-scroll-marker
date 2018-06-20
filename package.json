@@ -5,6 +5,7 @@
   "description": "Highlights linter errors on the scroll bar",
   "keywords": [
     "scroll bar",
+    "scrollbar",
     "highlight lint"
   ],
   "repository": "https://github.com/surdu/lint-scroll-marker",
