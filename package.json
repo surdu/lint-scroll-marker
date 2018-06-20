@@ -1,0 +1,37 @@
+{
+  "name": "lint-scroll-marker",
+  "main": "./lib/lint-scroll-marker",
+  "version": "0.1.1",
+  "description": "Marks linter result on the scroll bar",
+  "keywords": [
+    "scroll bar",
+    "highlight results"
+  ],
+  "repository": "https://github.com/surdu/find-scroll-marker",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "scroll-marker": {
+      "versions": {
+        "0.1.0": "consumeScrollMarker"
+      }
+    }
+  },
+
+	"providedServices": {
+    "linter-ui": {
+      "versions": {
+        "1.0.0": "provideUI"
+      }
+    }
+  },
+
+  "dependencies": {
+    "atom-package-deps": "^4.6.2"
+  },
+  "package-deps": [
+    "scroll-marker"
+  ]
+}
