@@ -7,7 +7,7 @@
     "scroll bar",
     "highlight lint"
   ],
-  "repository": "https://github.com/surdu/find-scroll-marker",
+  "repository": "https://github.com/surdu/lint-scroll-marker",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
