@@ -1,7 +1,7 @@
 {
   "name": "lint-scroll-marker",
   "main": "./lib/lint-scroll-marker",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Highlights linter errors on the scroll bar",
   "keywords": [
     "scroll bar",
@@ -12,7 +12,6 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-
   "consumedServices": {
     "scroll-marker": {
       "versions": {
@@ -20,7 +19,6 @@
       }
     }
   },
-
   "providedServices": {
     "linter-ui": {
       "versions": {
@@ -28,11 +26,9 @@
       }
     }
   },
-
   "dependencies": {
     "atom-package-deps": "^4.6.2"
   },
-
   "package-deps": [
     "scroll-marker"
   ]
