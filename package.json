@@ -18,6 +18,12 @@
       "versions": {
         "0.1.0": "consumeScrollMarker"
       }
+    },
+
+    "diagnostics-store": {
+      "versions": {
+        "0.3.0": "consumeDiagnosticUpdates"
+      }
     }
   },
   "providedServices": {
