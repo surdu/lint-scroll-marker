@@ -6,7 +6,10 @@
   "keywords": [
     "scroll bar",
     "scrollbar",
-    "highlight lint"
+    "highlight",
+    "linter",
+    "nuclide",
+    "atom-ide-ui"
   ],
   "repository": "https://github.com/surdu/lint-scroll-marker",
   "license": "MIT",
