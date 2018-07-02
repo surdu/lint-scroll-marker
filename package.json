@@ -1,7 +1,7 @@
 {
   "name": "lint-scroll-marker",
   "main": "./lib/lint-scroll-marker",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Highlights linter errors on the scroll bar",
   "keywords": [
     "scroll bar",
